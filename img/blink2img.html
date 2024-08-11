@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Title of the document</title>
+    <style>
+      blink {
+        animation: blinker 0.6s linear infinite;
+        
+       }
+      @keyframes blinker {  
+        50% { opacity: 0; }
+       }
+       .blink-one {
+         animation: blinker-one 1s linear infinite;
+       }
+       @keyframes blinker-one {  
+         0% { opacity: 0; }
+       }
+       .blink-two {
+         animation: blinker-two 1.4s linear infinite;
+       }
+       @keyframes blinker-two {  
+         100% { opacity: 0; }
+       }
+    </style>
+  </head>
+  <body>
+    <h3>
+      <blink><img src="arrow3.png" height="40px" width="40px"/></blink>
+    </h3>
+    <span class="blink-one">CSS blinking effect for opacity starting with 0%</span>
+    <p class="blink-two">CSS blinking effect for opacity starting with 100%</p>
+  </body>
+</html>
