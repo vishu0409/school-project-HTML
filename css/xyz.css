@@ -1,0 +1,79 @@
+.mcu
+		{
+			background: linear-gradient(to top,#ffffff 0%,#888888 100%);
+		}
+		.b
+		{
+			
+			border-radius: 10px;
+			margin-bottom:20px;
+      box-shadow: 10px 10px 10px #000000;
+      
+		}
+		.c
+		{
+			border-radius: 10px;
+		}
+		.aa
+		{
+			border-radius: 20px;
+		}
+          .ab
+          {
+          	margin-bottom:20px;
+          }  
+          .z
+          {
+            
+            border-radius:20px;
+            box-shadow: 10px 15px 15px #4738;
+          }
+          .abcd:hover
+          {
+             box-shadow: 10px 15px 15px #666699;
+          }
+		.x{
+      border-radius: 10px;
+      height:50px;
+      background: linear-gradient(to bottom right,#000000 18%,#00ffff 100%);
+    }
+    .ax
+    {
+     border-radius: 10px;
+      height:50px;
+      background: linear-gradient(to bottom right, #003366 28%, #00ffcc 100%);
+    }
+    .bb
+{
+text-shadow:2px 2px 2px white;
+}
+.zz
+{
+  margin:2px;
+  padding: 3px;
+  } 
+  .oo
+  {
+    text-align: justify;
+  }
+  .pp
+  {
+    color:white;
+    text-shadow: 2px 2px 4px #000000;
+    line-height: 40px;
+  }
+  .con
+  {
+    height:363px;
+  }
+      
+  .ss{
+    height: 50px;
+     background:linear-gradient(to bottom, #ff9966 0%, #ffffff 100%);
+     text-align: center;
+     font-family:"palatino linotype";
+     font-size:25px;
+     font-weight:50px;
+     font-weight:bold;
+     font-style: italic;
+
